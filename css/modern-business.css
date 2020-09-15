@@ -5,6 +5,9 @@
  */
 body {
   padding-top: 56px;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden; 
 }
 
 .carousel-item {
