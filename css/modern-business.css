@@ -10,8 +10,14 @@ body {
   overflow-x: hidden; 
 }
 
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:0 !important; padding-bottom:0 !important;
+    height: 25px;
+}
+.navbar {min-height:25px !important;}
+
 .carousel-item {
-  height: 65vh;
+  height: 30vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -22,4 +28,25 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+}
+
+.fa {
+  padding: 7px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
 }
