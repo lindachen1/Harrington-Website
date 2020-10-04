@@ -15,38 +15,46 @@
 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
-
+  <link href="css/orgchart.css" rel="stylesheet">
+  <!-- Orgchart css-->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
 <body>
 
   <!-- Navigation -->
-  	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Harrington School PTA</a>
-	      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="navbar-toggler-icon"></span>
-	      </button>
-	      <div class="collapse navbar-collapse" id="navbarResponsive">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item">
-	            <a class="nav-link" href="index.html">Home</a>
-	          </li>
-	          <li class="nav-item dropdown">
-	            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	              PTA
-	            </a>
-	            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-	              <a class="dropdown-item" href="about.html">About PTA</a>
-	              <a class="dropdown-item" href="board.html">PTA Board</a>
-				  <a class="dropdown-item" href="organization.html">Organization</a>
-	            </div>
-	          </li>
-	        </ul>
-	      </div>
-	    </div>
-  	</nav>
-  	<div class="container">
+  	<!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top" style="background-color:navy">
+    <div class="container">
+      <!--<a class="navbar-brand" href="index.html">Harrington School PTA</a>-->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              PTA
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about.html">About PTA</a>
+              <a class="dropdown-item" href="board.html">PTA Board</a>
+        <a class="dropdown-item" href="organization.html">Organization</a>
+            </div>
+          </li>
+      <li class="nav-item">
+            <a class="nav-link" href="support.html">Support</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  	<div class="container" style="height:auto">
 	    <h1 class="mt-4 mb-3" style="color:blue">PTA Board
 	    </h1>
 	        <hr style="width:100%;color:gold;height:3px;background-color:gold;border-width:0px">
@@ -238,16 +246,88 @@
       </div>
 	</div>
 	
-	</div>
+    <!--ayo can someone add the stuff from the email onto here-->
+  <h2 style="color:blue">Board Chart</h2>
+  <hr style="width:100%;color:gold;height:3px;background-color:gold;border-width:0px">
+  <div class="content" style="margin-bottom:800px">
+  <figure class="org-chart cf">
+    <ul class="administration">
+      <li>            
+        <ul class="director">
+          <li>
+            <a href="#"><span>Director</span></a>
+            <ul class="subdirector">
+              <li><a href="#"><span>Assistante Director</span></a></li>
+            </ul>
+            <ul class="departments cf">               
+              <li><a href="#"><span>Administration</span></a></li>
+              
+              <li class="department dep-a">
+                <a href="#"><span>Department A</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Section A1</span></a></li>
+                  <li class="section"><a href="#"><span>Section A2</span></a></li>
+                  <li class="section"><a href="#"><span>Section A3</span></a></li>
+                  <li class="section"><a href="#"><span>Section A4</span></a></li>
+                  <li class="section"><a href="#"><span>Section A5</span></a></li>
+                </ul>
+              </li>
+              <li class="department dep-b">
+                <a href="#"><span>Department B</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Section B1</span></a></li>
+                  <li class="section"><a href="#"><span>Section B2</span></a></li>
+                  <li class="section"><a href="#"><span>Section B3</span></a></li>
+                  <li class="section"><a href="#"><span>Section B4</span></a></li>
+                </ul>
+              </li>
+              <li class="department dep-c">
+                <a href="#"><span>Department C</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Section C1</span></a></li>
+                  <li class="section"><a href="#"><span>Section C2</span></a></li>
+                  <li class="section"><a href="#"><span>Section C3</span></a></li>
+                  <li class="section"><a href="#"><span>Section C4</span></a></li>
+                </ul>
+              </li>
+              <li class="department dep-d">
+                <a href="#"><span>Department D</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Section D1</span></a></li>
+                  <li class="section"><a href="#"><span>Section D2</span></a></li>
+                  <li class="section"><a href="#"><span>Section D3</span></a></li>
+                  <li class="section"><a href="#"><span>Section D4</span></a></li>
+                  <li class="section"><a href="#"><span>Section D5</span></a></li>
+                  <li class="section"><a href="#"><span>Section D6</span></a></li>
+                </ul>
+              </li>
+              <li class="department dep-e">
+                <a href="#"><span>Department E</span></a>
+                <ul class="sections">
+                  <li class="section"><a href="#"><span>Section E1</span></a></li>
+                  <li class="section"><a href="#"><span>Section E2</span></a></li>
+                  <li class="section"><a href="#"><span>Section E3</span></a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul> 
+      </li>
+    </ul>     
+  </figure>
+</div>
+
+</div>
 	  <!-- /.container -->
 
     
-  	<footer class="py-5 bg-dark">
-    	<div class="container">
-      		<p class="m-0 text-center text-white">Copyright &copy; Harrington School PTA 2020 | 328 Lowell Street,  Lexington, MA 02420 &nbsp; 781-860-0012</p>
-    		<p class="m-0 text-center text-white">Questions on website? Contact <a href="mailto:webmasterharrington@gmail.com">Webmaster</a></p>
-  		</div>
-  	</footer>
+  	<footer class="py-5" style="background-color:navy">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Harrington School PTA 2020 | 328 Lowell Street,  Lexington, MA 02420 &nbsp; 781-860-0012</p>
+    <p class="m-0 text-center text-white">Questions on website? Contact <a href="mailto:webmasterharrington@gmail.com">Webmaster</a></p>
+  </div>
+    <!-- /.container -->
+  </footer>
   	<script src="vendor/jquery/jquery.min.js"></script>
   	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
