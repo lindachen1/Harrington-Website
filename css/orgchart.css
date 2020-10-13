@@ -172,7 +172,6 @@
 
 .department:first-child,
 .departments li:nth-child(2){
-  margin-left: 0;
   clear: left;  
 }
 
@@ -187,7 +186,7 @@
   border-left: 4px solid gray;
   margin: 0 auto;
   top: 130px;
-  left: 9.1%
+  left: 7.4% /* COMMENT: you can change alignment here */
 }
 
 @media all and (max-width: 767px){
@@ -201,7 +200,7 @@
 @media all and (min-width: 768px){
   .department:first-child:before,
    .department:last-child:before{
-    border:none;
+    /*border:none;*/
   }
 }
 
@@ -220,7 +219,7 @@
 
 .department{
   border-left: 4px solid gray;
-  width: 18.59894921190893%;
+  width: 11.7%; /* COMMENT: you can change width of departments here */
   float: left;
   margin-left: 1.751313485113835%;
   margin-bottom: 60px;
