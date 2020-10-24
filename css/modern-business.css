@@ -50,3 +50,13 @@ body {
   background: #55ACEE;
   color: white;
 }
+
+.btn-custom {
+  background-color: #4169E1;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #003399;
+  color: white;
+}
