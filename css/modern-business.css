@@ -30,6 +30,13 @@ body {
   margin-bottom: 30px;
 }
 
+@media all and (max-width: 767px){
+  .marginchange{
+    margin-top: 2100px;
+	
+  }
+}
+
 .fa {
   padding: 7px;
   font-size: 30px;
