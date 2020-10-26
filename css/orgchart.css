@@ -35,27 +35,32 @@
   padding: 0 20px;
 }
 
-.content a:focus{
+.content a:focus{ /* when clicked on a branch */
   outline: 2px dashed #f7f7f7;
 }
 
 @media all and (max-width: 767px){
   .content{
-    padding: 0 20px;
+    padding: 0 20px;]
+	
   } 
 }
 
 .content ul{
   padding: 0;
   margin: 0;
-  list-style: none;   
+  list-style: none;     
 }
-
-.content ul a{
+        
+.content ul a{/* text align of department heads*/
   display: block;
   background: #ccc;
   border: 4px solid gray;
   text-align: center;
+   
+  vertical-align: middle;
+
+    
   overflow: hidden;
   font-size: .7em;
   text-decoration: none;
@@ -73,6 +78,7 @@
 @media all and (max-width: 767px){
   ul a{
     font-size: 1em;
+	
   }
 }
 
@@ -81,6 +87,13 @@
   top: 50%;
   margin-top: -0.7em;
   display: block;
+  position: absolute;
+    top : 65%; /* controls the vertica allignment */
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform    : translate(-50%, -50%);  
+	
+	
 }
 
 /*
@@ -139,7 +152,7 @@
 .subdirector > li:first-child a,
 .departments > li:first-child a{
   width: 100%;
-  background: gold; 
+  background: gold;
 }
 
 .subdirector > li:first-child a{  
@@ -150,6 +163,7 @@
   .subdirector > li:first-child,
   .departments > li:first-child{
     width: 40%; 
+
   }
 
   .subdirector > li:first-child{
@@ -203,6 +217,7 @@
   .department:first-child:before,
    .department:last-child:before{
     /*border:none;*/
+
   }
 }
 
@@ -225,6 +240,7 @@
   float: left;
   margin-left: 1.751313485113835%;
   margin-bottom: 60px;
+  /*vertical-align: center;*/
 }
 
 .lt-ie8 .department{
@@ -280,8 +296,11 @@
   border-bottom: 4px solid gray;
   height: 80px; 
 }
-
-.department li a{
+.sections {
+	  vertical-align: middle;
+    line-height: normal;
+}
+.department li a{/*vertical align?*/
   background: #fff;
   top: 48px;  
   position: absolute;
@@ -289,6 +308,7 @@
   width: 90%;
   height: 60px;
   vertical-align: middle;
+  
   right: -1px;
   /*
   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -298,7 +318,8 @@
   background-image: -o-linear-gradient(-45deg,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%)!important;
   background-image: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%)!important;
   background-image: linear-gradient(135deg,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%)!important;
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#00000000',GradientType=1 );*/
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#00000000',GradientType=1 );
+	*/
 }
 
 .department li a:hover{
@@ -317,3 +338,4 @@
 .department.dep-e a{ background: gold; }
 .department.dep-f a{ background: lightblue; }
 .department.dep-g a{ background: gold; }
+
