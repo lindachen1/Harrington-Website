@@ -12,17 +12,17 @@
 	<title>Harrington School PTA</title>
 
 	<!-- Bootstrap core CSS -->
-	<link href="https://lindachen1.github.io/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Custom styles for this template -->
-	<link href="https://lindachen1.github.io/css/modern-business.css" rel="stylesheet">
-	<link href="https://lindachen1.github.io/css/orgchart.css" rel="stylesheet">
+	<link href="css/modern-business.css" rel="stylesheet">
+	<link href="css/orgchart.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-	<!-- Navigation -->
+	
 	<!-- Navigation -->
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top" style="background-color:navy">
 		<div class="container">
@@ -82,44 +82,81 @@
 			<li class="breadcrumb-item active">Resources</li>
 		</ol>
 
-		<div class="row">
-			<div class="col-md-4">
-				<a style ="margin-bottom:10px" class="btn btn-lg btn-custom btn-block" href="https://harringtonelem.membershiptoolkit.com/" target="_blank">Membership Toolkit</a>
-				
+		<div class="mb-4" id="accordion" role="tablist" aria-multiselectable="true">
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingOne">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Hawk Monthly</a>
+			  </h5>
 			</div>
-			<div class="col-md-4">
-				<a style ="margin-bottom:10px" class="btn btn-lg btn-custom btn-block" href="index.html#calendar">Calendar</a>
-				
+			<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+			  <div class="card-body">
+				Currently Empty
+			  </div>
 			</div>
-			<div class="col-md-4">
-				<a style ="margin-bottom:10px" class="btn btn-lg btn-custom btn-block" href="#">Hawk Monthly</a>
-				
+		  </div>
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingTwo">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Calendar</a>
+			  </h5>
 			</div>
-		</div>
-
-		<h3 class="mt-4 mb-3" style="color:blue"><i>Important Links</i></h1>
-		<hr style="width:100%;color:gold;height:3px;background-color:gold;border-width:0px">
-		<div class="row" style="margin-bottom:50px">
-			<div class="col-md-4">
-				<a style ="margin-bottom:10px" class="btn btn-lg btn-custom btn-block" href="https://www.lexingtonma.org/harrington-elementary/" target="_blank">Harrington Elementary School</a>
-				
+			<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+			  <div class="card-body">
+			  	<a href="index.html#calendar">View</a> calendar or <a href="https://calendar.google.com/calendar/u/0/r/week/2020/11/4?cid=harringtonpta%40gmail.com">add</a> it to your calendar
+			  </div>
 			</div>
-			<div class="col-md-4">
-				<a style ="margin-bottom:10px" class="btn btn-lg btn-custom btn-block" href="https://www.lexingtonma.org/calendar/"  target="_blank">LPS School Calendar</a>
-				
+		  </div>
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingThree">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Membership Toolkit</a>
+			  </h5>
 			</div>
-			<div class="col-md-4">
-				<a style ="margin-bottom:10px" class="btn btn-lg btn-custom btn-block" href="https://www.facebook.com/groups/211859123376864"  target="_blank">Hawks at Home Facebook Group</a>
-				
+			<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+			  <div class="card-body">
+				Visit <a href="https://harringtonelem.membershiptoolkit.com/">membership toolkit</a> website to learn more
+			  </div>
 			</div>
-		</div>
+		  </div>
+		  <div class="card">
+			<div class="card-header" role="tab" id="headingFour">
+			  <h5 class="mb-0">
+				<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Hawks at Home Facebook Group</a>
+			  </h5>
+			</div>
+			<div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+			  <div class="card-body">
+				<a href="https://harringtonelem.membershiptoolkit.com/">Hawks at home facebook group</a><br>This FB Group is not maintained by the Harrington PTA. It is a private group for parents/families who attend Harrington Elementary School
+			  </div>
+			</div>
+		  </div>
+		  <br>
+		  <h4 class="mt-4 mb-3" style="color:blue"><i>Important Links</i></h1>
+		  <ul>
+		  	<li><a href="https://www.lexingtonma.org/harrington-elementary/">Harrington Elementary School</a></li>
+		  	<li><a href="https://www.lexingtonma.org/calendar/">LPS School Calendar</a></li>
+		  	<li><a href="https://sites.google.com/lexingtonma.org/lpsaspenfamilystudentportal/home">LPS Aspen</a></li>
+		  </ul>
 
 </div>
 	</div>
 </div>
 </div>
 <!-- /.container -->
-
+	<center>
+	  <img src="images/HEADER_IMAGE.png" width="80%" alt="header image">
+	  <hr>
+	  <div class="container" align="right">
+	    <a href="https://www.facebook.com/HarringtonLexingtonMA" class="fa fa-facebook"></a>
+	    <small>Like us on <a href="https://www.facebook.com/HarringtonLexingtonMA">Facebook</a>!</small>&nbsp 
+		<a href="https://twitter.com/PTA_Harrington" class="fa fa-twitter"></a>
+		<small>Follow us on <a href="https://twitter.com/PTA_Harrington">Twitter</a>!</small>
+		<a href="#"><img src="images/PlainHawk.jpg" style="width:40px"></a>
+		<small>See the <a href="#">Hawk Monthly</a>!</small>
+	  </div>
+	  <br />
+	</center>
 
 <footer class="py-5" style="background-color:navy">
 	<div class="container">
@@ -129,8 +166,8 @@
 	<!-- /.container -->
 </footer>
 
-<script src="https://lindachen1.github.io/vendor/jquery/jquery.min.js"></script>
-<script src="https://lindachen1.github.io/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
