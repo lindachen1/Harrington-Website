@@ -1,5 +1,4 @@
 
-
 .content *{
     -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -62,7 +61,7 @@
 
     
   overflow: hidden;
-  font-size: .7em;
+  font-size: .8em;
   text-decoration: none;
   font-weight: bold;
   color: #333;
@@ -79,9 +78,6 @@
   ul a{
     font-size: 1em;
 	
-  }
-  .marginchange {
-	  margin-top: 1200px;
   }
 }
 
@@ -112,6 +108,11 @@
   margin: 0 auto 0px auto;
   background: lightblue;
 }
+.liaison > li > a{
+  width: 25%;
+  margin: 0 auto 0px auto;
+  background: lightgrey;
+}
 
 .subdirector:after{
   content: "";
@@ -123,7 +124,6 @@
   left: 45.45%;
   position: relative;
 }
-
 .subdirector,
 .departments{
   position: absolute;
@@ -155,7 +155,7 @@
 .subdirector > li:first-child a,
 .departments > li:first-child a{
   width: 100%;
-  background: gold;
+  background: lightgrey;
 }
 
 .subdirector > li:first-child a{  
@@ -304,7 +304,7 @@
     line-height: normal;
 }
 .department li a{/*vertical align?*/
-  background: #fff;
+  background: darkgrey;
   top: 48px;  
   position: absolute;
   z-index: 1;
@@ -332,13 +332,12 @@
   top: 39px;
   background-image: none!important;
 }
-
-/* Department/ section colors */
-.department.dep-a a{ background: gold; }
-.department.dep-b a{ background: lightblue; }
-.department.dep-c a{ background: gold; }
-.department.dep-d a{ background: lightblue; }
-.department.dep-e a{ background: gold; }
-.department.dep-f a{ background: lightblue; }
-.department.dep-g a{ background: gold; }
-
+.section li{background:grey;}
+/* Department/ section colors 
+.department.dep-a a{ background: lightgrey; }
+.department.dep-b a{ background: lightgrey; }
+.department.dep-c a{ background: lightgrey; }
+.department.dep-d a{ background: lightgrey; }
+.department.dep-e a{ background: lightgrey; }
+.department.dep-f a{ background: lightgrey; }
+.department.dep-g a{ background: lightgrey; }
