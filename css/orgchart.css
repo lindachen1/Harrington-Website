@@ -111,7 +111,7 @@
 .liaison > li > a{
   width: 25%;
   margin: 0 auto 0px auto;
-  background: lightgrey;
+  background: powderblue;
 }
 
 .subdirector:after{
@@ -155,7 +155,7 @@
 .subdirector > li:first-child a,
 .departments > li:first-child a{
   width: 100%;
-  background: lightgrey;
+  background: gold;
 }
 
 .subdirector > li:first-child a{  
@@ -333,11 +333,11 @@
   background-image: none!important;
 }
 .section li{background:grey;}
-/* Department/ section colors 
-.department.dep-a a{ background: lightgrey; }
-.department.dep-b a{ background: lightgrey; }
-.department.dep-c a{ background: lightgrey; }
-.department.dep-d a{ background: lightgrey; }
-.department.dep-e a{ background: lightgrey; }
-.department.dep-f a{ background: lightgrey; }
-.department.dep-g a{ background: lightgrey; }
+/* Department/ section colors */
+.department.dep-a a{ background: lightblue; }
+.department.dep-b a{ background: gold; }
+.department.dep-c a{ background: lightblue; }
+.department.dep-d a{ background: gold; }
+.department.dep-e a{ background: lightblue; }
+.department.dep-f a{ background: gold; }
+.department.dep-g a{ background: lightblue; }
